@@ -38,7 +38,7 @@
     <meta property="fb:app_id" content="108080083362044" />
     
     <!-- CSS STYLING -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
     <link href="https://www.yiannistaos.com/css/style.min.css" rel="stylesheet">
 
     <!-- Google Tag Manager -->
@@ -158,10 +158,8 @@
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js" integrity="sha256-yl7w0KuhRsVzOpDk7EoWE2EVwwOFXPlfQDQDtwsg5ds="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js" integrity="sha256-pelC1MOe8KcWCQWSbkMF83x3Hb+K3xn3Fua5IUMexkU="
-        crossorigin="anonymous"></script>
-
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
 </body>
 </html>
