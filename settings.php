@@ -9,6 +9,7 @@ $age = (date("md", date("U", mktime(0, 0, 0, $month, $day, $year))) > date("md")
 
 // Websites I've developed this year
 $websites_this_year = array();
+$websites_this_year[] = ["web357.com", "https://www.web357.com/"];
 $websites_this_year[] = ["mamamoro.com", "https://www.mamamoro.com/"];
 $websites_this_year[] = ["ktimachrysovergi.com", "https://www.ktimachrysovergi.com/"];
 $websites_this_year[] = ["pyrgosfireworks.com", "https://www.pyrgosfireworks.com/"];
@@ -24,7 +25,6 @@ $websites_this_year[] = ["svaestates.com", "http://www.svaestates.com/"];
 
 // Websites I've developed earlier
 $websites_earlier = array();
-$websites_earlier[] = ["web357.com", "https://www.web357.com/"];
 $websites_earlier[] = ["topsitescy.com", "http://www.topsitescy.com/"];
 $websites_earlier[] = ["topprocy.com", "http://www.topprocy.com/"];
 $websites_earlier[] = ["tamamrhodes.gr", "http://www.tamamrhodes.gr/"];
