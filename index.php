@@ -3,10 +3,10 @@
 <html lang="en">
 
 <head>
-    <title>Yiannis Christodoulou | Freelance Full-stack Web Developer</title>
+    <title>Yiannis Christodoulou | Freelance Full-stack PHP Web Developer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="I am Yiannis Christodoulou and this is my personal website. I am a freelance Full-stack Web Developer and the guy behind Web357. I love building websites and applications with Joomla! and WordPress.">
+    <meta name="description" content="I am Yiannis Christodoulou and this is my personal website. I am a freelance Full-stack PHP Web Developer and the guy behind Web357. I love building websites and applications with Joomla! and WordPress.">
 
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="https://www.yiannistaos.com/images/favicon/apple-icon-57x57.png">
@@ -32,8 +32,8 @@
     <!-- FACEBOOK OG TAGS -->
     <meta property="og:url" content="https://www.yiannistaos.com/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Yiannis Christodoulou - Freelance Full-stack Web Developer" />
-    <meta property="og:description" content="I am Yiannis Christodoulou and this is my personal website. I am a freelance Full-stack Web Developer and the guy behind Web357. I love building websites and applications with Joomla! and WordPress." />
+    <meta property="og:title" content="Yiannis Christodoulou - Freelance Full-stack PHP Web Developer" />
+    <meta property="og:description" content="I am Yiannis Christodoulou and this is my personal website. I am a freelance Full-stack PHP Web Developer and the guy behind Web357. I love building websites and applications with Joomla! and WordPress." />
     <meta property="og:image" content="https://www.yiannistaos.com/images/yiannistaos_pic_2015_200x200.png" />
     <meta property="fb:app_id" content="108080083362044" />
     
@@ -63,7 +63,7 @@
         </div>
         <div class="uk-margin">
             <div><span class="uk-text-bold">Yiannis Christodoulou</span></div>
-            <div>Full-stack Web Developer</div>
+            <div>Full-stack PHP Web Developer</div>
             <div>Founder &amp; Lead Developer at <a href="https://www.web357.com/" title="Useful extensions for Joomla!">Web357</a></div>
         </div>
     </div>
@@ -74,16 +74,16 @@
         <div class="uk-width-1-2@l">
             <h4>About me</h4>
             
-            <p>Hello, I am Yiannis Christodoulou.</p>
+            <p>Hey, I am Yiannis Christodoulou.</p>
 
             <p>I am <?php echo $age; ?> years old and I was born in beatiful <a href="https://en.wikipedia.org/wiki/Rhodes">Rhodes island of Greece</a>. Today, I live in <a href="https://en.wikipedia.org/wiki/Cyprus">Cyprus</a>, since January 2011.</p>
 
-            <p>I am a freelance Full-stack Web Developer and the guy behind <a href="https://www.web357.com/" title="Useful extensions for Joomla!">Web357</a>. I love building websites and applications with <a href="https://www.joomla.org/">Joomla!</a> and <a href="https://www.wordpress.org/">WordPress</a>. Also I love travels, food, video games and football.</p>
+            <p>I am a freelance Full-stack PHP Web Developer and the guy behind <a href="https://www.web357.com/" title="Useful extensions for Joomla!">Web357</a>. I love building websites and applications with <a href="https://www.joomla.org/">Joomla!</a> and <a href="https://www.wordpress.org/">WordPress</a>. Also I love travels, food, video games and football.</p>
 
             <h4>Send me a message</h4>
-            <p>You can contact me at <strong>yiannis@web357.com</strong></p>      
+            <p>Feel free to send me a message at <strong>yiannis {@} web357 {dot} com</strong></p>      
 
-            <h4>Follow me</h4>
+            <h4>You can also find me at Social Media</h4>
             <div class="uk-display-inline-block yt-margin-right">
                 <a href="https://www.facebook.com/Yiannistaos" title="Facebook" class="yt-social-link">
                     <span class="uk-icon-button" uk-icon="icon: facebook"></span>
@@ -128,7 +128,13 @@
             <ul class="uk-list uk-list-divider">
                 <?php for ($i=0; $i<count($websites_this_year); $i++): ?>
                     <li>
-                        <a target="_blank" href="<?php echo $websites_this_year[$i][1]; ?>"><?php echo $websites_this_year[$i][0]; ?></a>
+                        <a target="_blank" href="<?php echo $websites_this_year[$i][1]; ?>?utm_source=Yiannistaoscom&utm_medium=Yiannistaoscom-WebsiteVisitLink&utm_content=Yiannistaoscom-WebsiteVisitLink&utm_campaign=YiannistaoscomVisitLink"><?php echo $websites_this_year[$i][0]; ?></a> 
+
+                        <?php if (isset($websites_this_year[$i][2])): ?>
+                            <span class="uk-label uk-label-success uk-margin-small-left">
+                                <?php echo $websites_this_year[$i][2]; ?>
+                            </span>
+                        <?php endif; ?>
                     </li>
                 <?php endfor; ?>
             </ul>
@@ -140,7 +146,7 @@
             <ul class="uk-list uk-list-divider">
                 <?php for ($i=0; $i<count($websites_earlier); $i++): ?>
                     <li>
-                        <a target="_blank" href="<?php echo $websites_earlier[$i][1]; ?>"><?php echo $websites_earlier[$i][0]; ?></a>
+                        <a target="_blank" href="<?php echo $websites_earlier[$i][1]; ?>?utm_source=Yiannistaoscom&utm_medium=Yiannistaoscom-WebsiteVisitLink&utm_content=Yiannistaoscom-WebsiteVisitLink&utm_campaign=YiannistaoscomVisitLink"><?php echo $websites_earlier[$i][0]; ?></a>
                     </li>
                 <?php endfor; ?>
             </ul>

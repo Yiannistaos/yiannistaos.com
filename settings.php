@@ -9,26 +9,29 @@ $age = (date("md", date("U", mktime(0, 0, 0, $month, $day, $year))) > date("md")
 
 // Websites I've developed this year
 $websites_this_year = array();
+$websites_this_year[] = ["elusas.com", "https://www.elusas.com/", "new"];
+$websites_this_year[] = ["keshlounge.com", "https://www.keshlounge.com/", "new"];
+$websites_this_year[] = ["radioart.com", "https://www.radioart.com/", "new"];
+$websites_this_year[] = ["pharmaid.gr", "http://www.pharmaid.gr/", "new"];
 $websites_this_year[] = ["web357.com", "https://www.web357.com/"];
+$websites_this_year[] = ["ubvia.com", "https://www.ubvia.com/"];
 $websites_this_year[] = ["mamamoro.com", "https://www.mamamoro.com/"];
 $websites_this_year[] = ["ktimachrysovergi.com", "https://www.ktimachrysovergi.com/"];
-$websites_this_year[] = ["pyrgosfireworks.com", "https://www.pyrgosfireworks.com/"];
-$websites_this_year[] = ["labcy.com", "http://www.labcy.com/"];
-$websites_this_year[] = ["aghatex.com", "http://www.aghatex.com/"];
-$websites_this_year[] = ["stayinrhodes.com", "https://www.stayinrhodes.com/"];
-$websites_this_year[] = ["everwhite.events", "http://everwhite.events/"];
-$websites_this_year[] = ["agiostychonas.org.cy", "https://www.agiostychonas.org.cy/"];
-$websites_this_year[] = ["sotira.org.cy", "https://www.sotira.org.cy/"];
-$websites_this_year[] = ["technomartcy.com", "https://www.technomartcy.com/"];
-$websites_this_year[] = ["theheart.group", "https://www.theheart.group/"];
-$websites_this_year[] = ["svaestates.com", "http://www.svaestates.com/"];
 
 // Websites I've developed earlier
 $websites_earlier = array();
-$websites_earlier[] = ["topsitescy.com", "http://www.topsitescy.com/"];
+$websites_earlier[] = ["pyrgosfireworks.com", "https://www.pyrgosfireworks.com/"];
+$websites_earlier[] = ["labcy.com", "http://www.labcy.com/"];
+$websites_earlier[] = ["aghatex.com", "http://www.aghatex.com/"];
+$websites_earlier[] = ["stayinrhodes.com", "https://www.stayinrhodes.com/"];
+$websites_earlier[] = ["everwhite.events", "http://everwhite.events/"];
+$websites_earlier[] = ["agiostychonas.org.cy", "https://www.agiostychonas.org.cy/"];
+$websites_earlier[] = ["sotira.org.cy", "https://www.sotira.org.cy/"];
+$websites_earlier[] = ["technomartcy.com", "https://www.technomartcy.com/"];
+$websites_earlier[] = ["theheart.group", "https://www.theheart.group/"];
+$websites_earlier[] = ["svaestates.com", "http://www.svaestates.com/"];
 $websites_earlier[] = ["topprocy.com", "http://www.topprocy.com/"];
 $websites_earlier[] = ["tamamrhodes.gr", "http://www.tamamrhodes.gr/"];
-$websites_earlier[] = ["pharmaid.gr", "http://www.pharmaid.gr/"];
 $websites_earlier[] = ["kyriacoulaw.com", "http://www.kyriacoulaw.com/"];
 $websites_earlier[] = ["troulos.gr", "http://www.troulos.gr/"];
 $websites_earlier[] = ["dahcyprus.com", "http://www.dahcyprus.com"];
