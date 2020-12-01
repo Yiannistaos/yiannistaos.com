@@ -81,7 +81,7 @@
             <p>I am a freelance Full-stack PHP Web Developer and the guy behind <a href="https://www.web357.com/" title="Useful extensions for Joomla!">Web357</a>. I love building websites and applications with <a href="https://www.joomla.org/">Joomla!</a> and <a href="https://www.wordpress.org/">WordPress</a>. Also I love travels, food, video games and football.</p>
 
             <h4>Send me a message</h4>
-            <p>Feel free to send me a message at <strong>yiannis {@} web357 {dot} com</strong></p>      
+            <p>Feel free to send me a message at <strong>yiannis{@}web357{dot}com</strong></p>      
 
             <h4>You can also find me at Social Media</h4>
             <div class="uk-display-inline-block yt-margin-right">
@@ -128,7 +128,7 @@
             <ul class="uk-list uk-list-divider">
                 <?php for ($i=0; $i<count($websites_this_year); $i++): ?>
                     <li>
-                        <a target="_blank" href="<?php echo $websites_this_year[$i][1]; ?>?utm_source=Yiannistaoscom&utm_medium=Yiannistaoscom-WebsiteVisitLink&utm_content=Yiannistaoscom-WebsiteVisitLink&utm_campaign=YiannistaoscomVisitLink"><?php echo $websites_this_year[$i][0]; ?></a> 
+                        <a href="<?php echo $websites_this_year[$i][1]; ?>?utm_source=Yiannistaoscom&utm_medium=Yiannistaoscom-WebsiteVisitLink&utm_content=Yiannistaoscom-WebsiteVisitLink&utm_campaign=YiannistaoscomVisitLink"><?php echo $websites_this_year[$i][0]; ?></a> 
 
                         <?php if (isset($websites_this_year[$i][2])): ?>
                             <span class="uk-label uk-label-success uk-margin-small-left">
@@ -146,7 +146,7 @@
             <ul class="uk-list uk-list-divider">
                 <?php for ($i=0; $i<count($websites_earlier); $i++): ?>
                     <li>
-                        <a target="_blank" href="<?php echo $websites_earlier[$i][1]; ?>?utm_source=Yiannistaoscom&utm_medium=Yiannistaoscom-WebsiteVisitLink&utm_content=Yiannistaoscom-WebsiteVisitLink&utm_campaign=YiannistaoscomVisitLink"><?php echo $websites_earlier[$i][0]; ?></a>
+                        <a href="<?php echo $websites_earlier[$i][1]; ?>?utm_source=Yiannistaoscom&utm_medium=Yiannistaoscom-WebsiteVisitLink&utm_content=Yiannistaoscom-WebsiteVisitLink&utm_campaign=YiannistaoscomVisitLink"><?php echo $websites_earlier[$i][0]; ?></a>
                     </li>
                 <?php endfor; ?>
             </ul>
